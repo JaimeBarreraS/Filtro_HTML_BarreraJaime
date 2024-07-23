@@ -1,0 +1,234 @@
+body{
+    width: 100vw;
+    height: 100vh;
+    margin: auto;
+    background-color: rgb(0, 0, 0);
+}
+.contenedor{
+    background-color: rgb(255, 221, 221);
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+.contenedor a{
+    text-decoration: none;
+    color: black;
+}
+.compra1{
+    position: absolute;
+    width: 20vw;
+    height: 3vw;
+    top: 5vw;
+    left: 1vw;
+}
+.compra2{
+    position: absolute;
+    width: 20vw;
+    height: 3vw;
+    top: 12vw;
+    left: 1vw;
+}
+.compra3{
+    position: absolute;
+    width: 20vw;
+    height: 3vw;
+    top: 15.5vw;
+    left:1vw;
+}
+.compra2:hover{
+    background-color:rgb(255, 148, 148);
+    border-radius: 2vw;
+    cursor: pointer;
+    box-shadow: 0px 0px 5px 0.1px gray
+}
+.compra3:hover{
+    background-color:rgb(255, 148, 148);
+    border-radius: 2vw;
+    cursor: pointer;
+    box-shadow: 0px 0px 5px 0.1px gray
+}
+.compra4:hover{
+    background-color:rgb(255, 148, 148);
+    border-radius: 2vw;
+    cursor: pointer;
+    box-shadow: 0px 0px 5px 0.1px gray
+}
+.compra5:hover{
+    background-color:rgb(255, 148, 148);
+    border-radius: 2vw;
+    cursor: pointer;
+    box-shadow: 0px 0px 5px 0.1px gray
+}
+.compra6:hover{
+    background-color:rgb(255, 148, 148);
+    border-radius: 2vw;
+    cursor: pointer;
+    box-shadow: 0px 0px 5px 0.1px gray
+}
+.compra4{
+    position: absolute;
+    width: 20vw;
+    height: 3vw;
+    top: 19vw;
+    left: 1vw;
+}
+.compra5{
+    position: absolute;
+    width: 20vw;
+    height: 3vw;
+    top: 22.5vw;
+    left: 1vw;
+    border-radius: 2vw;
+    box-shadow: 0px 0px 5px 0.1px gray;
+    background-color:rgb(255, 148, 148);
+}
+.compra6{
+    position: absolute;
+    width: 20vw;
+    height: 3vw;
+    top: 30vw;
+    left: 1vw;
+}
+.compra7{
+    position: absolute;
+    width: 20vw;
+    height: 3vw;
+    top: 39vw;
+    left: 1vw;
+}
+.text1{
+    position: absolute;
+    font-size: 2.3vw;
+    top: -2vw;
+    left: 1.5vw;
+}
+.text{
+    position: absolute;
+    font-size: 1.5vw;
+    top: -1vw;
+    left: 4.5vw;
+}
+.imge{
+    position: absolute;
+    width: 1.8vw;
+    height: 2vw;
+    left: 1.5vw;
+    top: 0.3vw;
+}
+.abrigos{
+    position: absolute;
+    width: 72vw;
+    height: 39vw;
+    background-color:rgb(255, 148, 148);
+    top: 5vw;
+    left: 22vw;
+    border-radius: 2vw;
+    border: 0.2vw solid lightpink;
+    box-shadow: 0px 0px 17px 2px gray
+}
+.letra{
+    position: absolute;
+    font-size: 2vw;
+    top: -0.5vw;
+    left: 3vw;
+}
+.caja1{
+    background-color: rgb(250, 250, 250);
+    position: absolute;
+    width: 15vw;
+    height: 15vw;
+    left: 3vw;
+    border-radius: 2vw;
+    top: 5vw;
+    border: 0.2vw solid lightpink;
+    overflow: hidden;
+}
+.caja2{
+    background-color: rgb(250, 250, 250);
+    position: absolute;
+    width: 15vw;
+    height: 15vw;
+    left: 20vw;
+    border-radius: 2vw;
+    top: 5vw;
+    border: 0.2vw solid lightpink;
+    overflow: hidden;
+}
+.caja3{
+    background-color: rgb(250, 250, 250);
+    position: absolute;
+    width: 15vw;
+    height: 15vw;
+    left: 37vw;
+    border-radius: 2vw;
+    top: 5vw;
+    border: 0.2vw solid lightpink;
+    overflow: hidden;
+}
+.caja4{
+    background-color: rgb(250, 250, 250);
+    position: absolute;
+    width: 15vw;
+    height: 15vw;
+    left: 54vw;
+    border-radius: 2vw;
+    top: 5vw;
+    border: 0.2vw solid lightpink;
+    overflow: hidden;
+}
+.caja5{
+    background-color: rgb(250, 250, 250);
+    position: absolute;
+    width: 15vw;
+    height: 15vw;
+    left: 3vw;
+    border-radius: 2vw;
+    top: 22vw;
+    border: 0.2vw solid lightpink;
+    overflow: hidden;
+}
+.caja1-1{
+    background-color: rgb(255, 226, 226);
+    position: absolute;
+    width: 15vw;
+    height: 4vw;
+    top: 10.99vw;
+    border-radius: 1vw;
+}
+.nombre{
+    position: absolute;
+    font-size: 0.8vw;
+    top: -0.4vw;
+    left: 1vw;
+    font-weight: bold;
+}
+.precio{
+    position: absolute;
+    font-size: 1.1vw;
+    top: 0.9vw;
+    left: 1vw;
+}
+.agregar{
+    position: absolute;
+    background-color: rgb(255, 156, 156);
+    width: 6vw;
+    height: 1.5vw;
+    border-radius: 1.5vw;
+    left: 8vw;
+    top: 1.9vw;
+    border: 0.2vw solid rgb(161, 76, 88);
+    cursor: pointer;
+}
+.text-agregar{
+    position: absolute;
+    font-size: 1.1vw;
+    left: 1.2vw;
+    top: -1vw;
+}
+img{
+    position: absolute;
+    width: 6vw;
+    height: 10vw;
+    top: 1vw;
+    left: 4vw;
+}
