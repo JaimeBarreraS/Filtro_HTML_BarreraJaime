@@ -215,12 +215,22 @@ body{
     left: 48vw;
 }
 
+.eliminar{
+    position: absolute;
+    top: 2vw;
+    left: 60vw;
+    z-index: 1;
+    width: 3vw;
+    height: 3vw;
+}
+
 img{
     position: absolute;
     width: 4vw;
     height: 5vw;
     top: 1vw;
     left: 2vw;
+    cursor: pointer;
 }
 .carro{
     position: absolute;
@@ -241,6 +251,9 @@ img{
 .carro:hover{
     background-color: antiquewhite;
     cursor: pointer;
+    border: 0.2vw solid rgb(184, 120, 130);
+    box-shadow: 0px 0px 5px 1px gray;
+    
 }
 .total{
     position: absolute;
@@ -270,16 +283,58 @@ img{
     height: 3vw;
     left: 9vw;
     top: 1.5vw;
-    background-color: lightpink ;
+    background-color: rgb(255, 233, 233) ;
     border-radius: 1.3vw;
-    border: 0.2vw solid lightpink;
-    box-shadow: 0px 0px 5px 1px gray;
+    border: 0.2vw solid rgb(184, 120, 130);
     cursor: pointer;
     
+}
+.pagar:hover{
+    background-color: antiquewhite;
+    cursor: pointer;
+    border: 0.2vw solid rgb(184, 120, 130);
+    box-shadow: 0px 0px 5px 1px gray;
 }
 .pagar-1{
     position: absolute;
     top: -1.5vw ;
     font-size: 1.8vw;
     left: 2vw;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.cuadro-numero{
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+    width: 2vw;
+    height: 2vw;
+    top: 30.35vw;
+    left: 15vw;
+    border-radius: 0.5vw;
+    border: 0.15vw solid lightpink;
+    box-shadow: 0px 0px 5px 1px gray
+}
+.cuadro-numero:hover{
+    background-color: antiquewhite;
+    cursor: pointer;
+}
+.num{
+    position: absolute;
+    font-size: 1.1vw;
+    left: 0.7vw;
+    top: -0.7vw;
+}
+#delete1:checked ~ .caja1{
+    display: none;
+}
+#delete2:checked ~ .caja2{
+    display: none;
+}
+#delete3:checked ~ .caja3{
+    display: none;
+}
+input{
+    display: none;
 }

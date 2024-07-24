@@ -252,6 +252,12 @@ body{
     border: 0.2vw solid rgb(161, 76, 88);
     cursor: pointer;
 }
+.agregar:hover{
+    background-color: antiquewhite;
+    cursor: pointer;
+    border: 0.2vw solid rgb(184, 120, 130);
+    box-shadow: 0px 0px 5px 1px gray;
+}
 .text-agregar{
     position: absolute;
     font-size: 1.1vw;
@@ -264,5 +270,26 @@ img{
     height: 10vw;
     top: 1vw;
     left: 4vw;
+}
+.cuadro-numero{
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+    width: 2vw;
+    height: 2vw;
+    top: 30.35vw;
+    left: 15vw;
+    border-radius: 0.5vw;
+    border: 0.15vw solid lightpink;
+    box-shadow: 0px 0px 5px 1px gray
+}
+.cuadro-numero:hover{
+    background-color: antiquewhite;
+    cursor: pointer;
+}
+.num{
+    position: absolute;
+    font-size: 1.1vw;
+    left: 0.7vw;
+    top: -0.7vw;
 }
 
